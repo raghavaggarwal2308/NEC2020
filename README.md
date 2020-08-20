@@ -1,3 +1,3 @@
 # NEC2020
 National Education Policy 2020
-Click on the link for preview - http://127.0.0.1:5500/
+Click on the link for preview -https://raghavaggarwal2308.github.io/NEP2020/index.html
