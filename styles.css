@@ -1,0 +1,267 @@
+*{
+  margin:0;
+  padding:0;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'IBM Plex Serif', serif;
+ 
+}
+body{
+  overflow-x:hidden;
+  overflow-y: scroll;
+  margin:0px;
+  padding:0;
+  width:100%;
+}
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+#header{
+  background-image:url('https://cdn.pixabay.com/photo/2016/11/21/14/12/books-1845614__340.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+  width:100%;
+  margin:0px;
+/* margin-left:-15px;
+  margin-right:-15px; */
+  padding:0;
+}
+
+.social {
+  text-align: center;
+  font-size: 3.5em;
+  color: #555;
+  overflow: hidden;
+
+ 
+}
+i{
+    transition: transform 300ms ease;
+    margin:1px;
+    cursor:pointer;
+    margin-top:4%;
+    margin-bottom:2%;
+    margin-left:2%;
+}
+#twitter:hover {
+  color: #77DDF6;
+  transform:translate(0px,-15px); 
+}
+
+
+#github:hover {
+  color: black;
+  transform:translate(0px,-15px); 
+}
+
+#linkedin:hover {
+  color: #0177B5;
+  transform:translate(0px,-15px); 
+}
+
+#envelope:hover {
+  color: #d54b3d;
+  transform:translate(0px,-15px); 
+}
+#instagram:hover{
+  color:#c61790;
+  transform:translate(0px,-15px); 
+}
+::-webkit-scrollbar {
+  width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius:2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  }
+.navbar{
+    background-color:transparent;
+    font-size:2rem;
+    color:rgb(184, 161, 161);
+    transition: transform 300ms ease, color 300ms ease,text-decoration 300ms ease;
+    position:fixed;
+    width:100%;
+    margin-left:0px;
+    z-index:10;
+} 
+.collapse li a{
+   color:rgb(102, 100, 100);
+}
+.navbar-brand {
+color:rgb(102, 100, 100);
+   font-size:2.5rem;
+}
+.navbar-brand:hover{
+color:black;
+opacity:0.8;
+}
+.navbar-brand a{
+text-decoration: none;
+color:rgb(54, 53, 53);
+}
+/* .non-active{
+  transform:translate(0px,-8px); 
+  color:black;
+  text-decoration:underline;
+} */
+#div2{
+ margin-top:13%;
+}
+.navbar li a:hover{
+transform:translate(0px,-8px);
+color:black;
+text-decoration:underline;
+}
+
+.card{
+  position: relative;
+  margin: 10px auto;
+  width: 70%;
+  height:70vh;
+  z-index: 1;
+  perspective: 1000;
+}
+.card img{
+  padding: 25px;
+}
+.card-text{
+   font-size:1.5rem;
+}
+.full-card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+  box-shadow: 5px 5px 2px 2px rgb(233, 230, 230);
+}
+.card:hover .full-card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+#explore,#contact{
+  padding:2px 10px;
+  background-color:#2f4463;
+  font-size:1.5rem;
+  margin:2%;
+  border-radius:5px;
+margin-top:5%;
+ 
+}
+#explore a,#contact a{
+  color:black;
+  text-decoration:none;
+}
+#explore a{
+color:white;
+}
+#explore:hover,#contact:hover{
+  font-size:1.8rem;
+  opacity:0.8;
+}
+#contact{
+  background-color:whitesmoke;
+}
+
+#contacts{
+  background-color:whitesmoke;
+  padding: 40px;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+ 
+  text-align: center;
+  background-color:whitesmoke;
+}
+#head{
+    font-weight: bolder;
+    margin-top:7%;
+    margin-left:3%;
+    font-size:3.5rem;
+  margin-bottom:7%;
+}
+#mainp{
+  font-weight: bolder;
+  margin-top:3.5%;
+  margin-left:3%;
+  font-size:1.5rem;
+}
+#footer{
+    background-color: #d7d9db;
+    
+}
+#content{
+    margin-top:10%;
+}
+
+#policyhead{
+    margin:2%;
+    margin-top:4%;
+    font-weight:bolder;
+    font-size:3rem;
+    text-align:center;
+}
+#design{
+ text-align:center;
+ font-size:1.5rem;
+ font-weight:bolder;
+ margin-bottom:2%;
+}
+label{
+ font-size:2rem;
+
+}
+input,textarea{
+border-color:transparent;
+border-bottom:1px solid black;
+width:80%;
+margin-bottom:7%;
+margin-left:0%;
+outline:transparent;
+font-size:1.5rem;
+padding:2%;
+}
+#contacthead{
+ font-size:4rem;
+ margin-bottom:8%;
+ margin-top:10%;
+ font-weight:bolder;
+}
+input:hover,textarea:hover{
+ background-color:#d7d9db;
+}
+#message{
+ background-color: #2f4463;
+ padding:2% 4%;
+ color:white;
+ font-size:2rem;
+ border-radius:5px;
+}
+.dropdown-menu:active{
+background-color:white;
+}
